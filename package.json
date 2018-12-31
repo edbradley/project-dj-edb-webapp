@@ -1,0 +1,11 @@
+{
+  "name": "project-dj-edb-webapp",
+  "version": "1.0.0",
+  "description": "dj-edb Web Application - Project design documentation & reference repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward Bradley",
+  "license": "MIT"
+}
