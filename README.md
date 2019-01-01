@@ -12,11 +12,11 @@ This Application is ***"serverless"*** in its design - https://aws.amazon.com/se
 
 * **API Gateway:** The AWS Web API Service. It provides a Client access interface to the Lambda Function that accesses the Database.
 
-* **Lambda:** The AWS scalable Runtime environment host for executing re-usable, functional, code. In this application, it is used to execute the Database access code. Lambda supports most popular Runtime Evironments (Java, .NET, etc...). This project uses NodeJS (**Javascript**).
+* **Lambda:** The AWS scalable Runtime environment host for executing re-usable, functional, code. In this application, it is used to execute the Database access code. Lambda supports most popular Runtime Evironments (Java, .NET, etc...). This project uses the **NodeJS** Runtime - https://nodejs.org/ (***Javascript***).
 
 * **DynamoDB:** The AWS NoSQL database in the Cloud. It hosts the data table containing the Mix information displayed the Frontend Client.
 
-**Serverless** architectures have emerged as a popular design pratice that allow applications to be developed, deployed, and scaled in a highly-effcient, and highly-available fashion. 
+**Serverless** architectures have emerged as a popular design pratice that allows applications to be developed, deployed, and scaled in a highly-effcient, and highly-available fashion. 
 
 The dj-edb Application consists of 2 major sub-projects:
 
