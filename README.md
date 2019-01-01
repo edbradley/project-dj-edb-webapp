@@ -30,4 +30,4 @@ The Mix audio is streamed via online services from SoundCloud https://soundcloud
 
 Below is a diagram that provides an architetural overview of the application:
 
-![Overview Diagram](dj-edb_WebApp_ArchitectureOverview.PNG)
+![Overview Diagram](dj-edb_WebApp_ArchitectureOverview.png)
