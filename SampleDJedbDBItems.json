@@ -1,0 +1,331 @@
+[
+  {
+    "MixId": "SYJFWT7V3jex2eqSIxmcLA",
+    "Title": "The Sample Mix",
+    "About": "A DJ edb Live Mix",
+    "DJ": "DJ edb",
+    "Year": "2019",
+    "Month": "01",
+    "Day": "02",
+    "CoverArtURL": "https://s3.amazonaws.com/dj-edb/art/cover-art/mix-cover-art.png",
+    "SoundCloudURL": "https://soundcloud.com/edward-bradley-1/mix-title/",
+    "SoundCloudHTML": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551651541&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>",
+    "MixCloudURL": "https://www.mixcloud.com/edward-bradley/mix-title/",
+    "MixCloudHTML": "<iframe width=\"100%\" height=\"120\" src=\"https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fedward-bradley%2Fthe-night-haze-session%2F\" frameborder=\"0\" ></iframe>",
+    "PlayList": [
+      {
+        "TrackNumber": "01",
+        "TrackTitle": "Hot Track 1 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2012"
+      },
+      {
+        "TrackNumber": "02",
+        "TrackTitle": "Hot Track 2 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "03",
+        "TrackTitle": "Hot Track 3 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      },
+      {
+        "TrackNumber": "04",
+        "TrackTitle": "Hot Track 4 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2017"
+      },
+      {
+        "TrackNumber": "05",
+        "TrackTitle": "Hot Track 5 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "06",
+        "TrackTitle": "Hot Track 6 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2010"
+      },
+      {
+        "TrackNumber": "07",
+        "TrackTitle": "Hot Track 7 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      },
+      {
+        "TrackNumber": "08",
+        "TrackTitle": "Hot Track 8 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "09",
+        "TrackTitle": "Hot Track 9 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2014"
+      },
+      {
+        "TrackNumber": "10",
+        "TrackTitle": "Hot Track 10 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2017"
+      },
+      {
+        "TrackNumber": "11",
+        "TrackTitle": "Hot Track 11 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "12",
+        "TrackTitle": "Hot Track 12 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "13",
+        "TrackTitle": "Hot Track 13 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2015"
+      },
+      {
+        "TrackNumber": "14",
+        "TrackTitle": "Hot Track 14 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "15",
+        "TrackTitle": "Hot Track 15 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "16",
+        "TrackTitle": "Hot Track 16 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      },
+      {
+        "TrackNumber": "17",
+        "TrackTitle": "Hot Track 17 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "18",
+        "TrackTitle": "Hot Track 18 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2019"
+      },
+      {
+        "TrackNumber": "19",
+        "TrackTitle": "Hot Track 19 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2017"
+      },
+      {
+        "TrackNumber": "20",
+        "TrackTitle": "Hot Track 20 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      }
+    ],
+    "Comments": [
+      {
+        "MemberId": "edbrad45@gmail.com",
+        "Created": "2018-12-31T16:59:13.618Z",
+        "Text": "This is an awesome Mix!"
+      },
+      {
+        "MemberId": "edbrad@edbradleyweb.net",
+        "Created": "2018-12-31T17:59:13.818Z",
+        "Text": "Nice Mix!"
+      }
+    ],
+    "Created": "2018-12-31T17:59:13.818Z",
+    "LastUpdated": "2018-12-31T17:59:13.818Z"
+  },
+  {
+    "MixId": "TYJFWTDV3jex2eqdIxmcLB",
+    "Title": "Another Sample Mix",
+    "About": "A DJ edb Live Mix",
+    "DJ": "DJ edb",
+    "Year": "2019",
+    "Month": "02",
+    "Day": "21",
+    "CoverArtURL": "https://s3.amazonaws.com/dj-edb/art/cover-art/mix-cover-art.png",
+    "SoundCloudURL": "https://soundcloud.com/edward-bradley-1/mix-title/",
+    "SoundCloudHTML": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/551651541&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>",
+    "MixCloudURL": "https://www.mixcloud.com/edward-bradley/mix-title/",
+    "MixCloudHTML": "<iframe width=\"100%\" height=\"120\" src=\"https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fedward-bradley%2Fthe-night-haze-session%2F\" frameborder=\"0\" ></iframe>",
+    "PlayList": [
+      {
+        "TrackNumber": "01",
+        "TrackTitle": "Hot Track 1 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2014"
+      },
+      {
+        "TrackNumber": "02",
+        "TrackTitle": "Hot Track 2 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2019"
+      },
+      {
+        "TrackNumber": "03",
+        "TrackTitle": "Hot Track 3 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "1998"
+      },
+      {
+        "TrackNumber": "04",
+        "TrackTitle": "Hot Track 4 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "05",
+        "TrackTitle": "Hot Track 5 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "06",
+        "TrackTitle": "Hot Track 6 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2010"
+      },
+      {
+        "TrackNumber": "07",
+        "TrackTitle": "Hot Track 7 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      },
+      {
+        "TrackNumber": "08",
+        "TrackTitle": "Hot Track 8 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2019"
+      },
+      {
+        "TrackNumber": "09",
+        "TrackTitle": "Hot Track 9 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2014"
+      },
+      {
+        "TrackNumber": "10",
+        "TrackTitle": "Hot Track 10 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2011"
+      },
+      {
+        "TrackNumber": "11",
+        "TrackTitle": "Hot Track 11 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "12",
+        "TrackTitle": "Hot Track 12 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2017"
+      },
+      {
+        "TrackNumber": "13",
+        "TrackTitle": "Hot Track 13 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2015"
+      },
+      {
+        "TrackNumber": "14",
+        "TrackTitle": "Hot Track 14 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "15",
+        "TrackTitle": "Hot Track 15 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "16",
+        "TrackTitle": "Hot Track 16 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      },
+      {
+        "TrackNumber": "17",
+        "TrackTitle": "Hot Track 17 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2018"
+      },
+      {
+        "TrackNumber": "18",
+        "TrackTitle": "Hot Track 18 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2019"
+      },
+      {
+        "TrackNumber": "19",
+        "TrackTitle": "Hot Track 19 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2017"
+      },
+      {
+        "TrackNumber": "20",
+        "TrackTitle": "Hot Track 20 (super remix)",
+        "TrackArtist": "Hot Producer",
+        "TrackLabel": "Hot Label",
+        "TrackYear": "2016"
+      }
+    ],
+    "Comments": [],
+    "Created": "2019-02-31T17:59:13.818Z",
+    "LastUpdated": " "
+  }
+]
