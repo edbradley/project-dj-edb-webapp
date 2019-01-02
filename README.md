@@ -16,17 +16,17 @@ This Application is ***"serverless"*** in its design - https://aws.amazon.com/se
 
 * **DynamoDB:** The AWS NoSQL database in the Cloud. It hosts the data table containing the Mix information displayed the Frontend Client. https://docs.aws.amazon.com/dynamodb/index.html?id=docs_gateway#lang/en_us
 
-**Serverless** architectures have emerged as a popular design pratice that allows applications to be developed, deployed, and scaled in a highly-effcient, and highly-available fashion. 
+**Serverless** architectures have emerged as a popular design pratice that allows applications to be developed, deployed, and scaled in a highly-effcient, and highly-available fashion. This project was modeled after an AWS sample project: https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/
 
 The dj-edb Application consists of 2 major sub-projects:
 
-* **Backend:** A REST API and Database to manage and exchange data with Frontend Clients, along with an Authentication Mechanism to secure data access.
+* **Back-end:** A REST API and Database to manage and exchange data with Frontend Clients, along with an Authentication Mechanism to secure data access.
 
-* **Frontend:** Browser-based Clients that communicate with the Backend to access and manage Mixes. The Application has separate Clients for playing Mixes and administering the Mix Information stored in the Backend.
+* **Front-end:** Browser-based Clients that communicate with the Backend to access and manage Mixes. The Application has separate Clients for playing Mixes and administering the Mix Information stored in the Backend.
 
-The **Backend** is built out and tested first. Next, the **Frontend** is designed and deployed (first, the private Admin site and finally, the public Mix Audio site).
+The **Back-end** is built out and tested first. Next, the **Front-end** is designed and deployed (first, the private Admin site and finally, the public Mix Audio site).
 
-**Javascript** code is used for the both the Backend (NodeJS - https://nodejs.org/en/) and Frontend (Angular - https://angular.io/). 
+**Javascript** code is used for the both the Back-end (NodeJS - https://nodejs.org/en/) and Front-end (Angular - https://angular.io/). 
 
 The Mix audio is streamed via online/Cloud services from SoundCloud https://soundcloud.com and MixCloud https://mixcloud.com. Both services allow users to upload audio files and embed streaming audio players (via HTML iframe) into their own custom site/application (dj-edb.com).
 
