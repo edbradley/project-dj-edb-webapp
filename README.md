@@ -2,7 +2,7 @@
 **dj-edb Web Application** - *Project design documentation &amp; reference repository*
 
 ## Overview:
-This project serves as a journal to document and chronical the development of a Web Application that allows the public to easily listen to my DJ Mixes over the Internet.  This project merges two of my passions: IT/Computing/Programming and Music (House Music DJ'ing). This application is built "in the Cloud", using **Amazon Web Services (AWS)** - https://aws.amazon.com/. I've been educating myself on the AWS Cloud Platform, with the goal of earning multiple AWS Certifications in 2019 - https://aws.amazon.com/certification/ (*Cloud Practioner, Solutions Architect Associate, & Developer Associate*). This project is a practical application of what I've learned thus far (via online training) - https://acloud.guru/. This is in conjunction with the Web development skills I've acquired in recent years (through online trainig and experimentation).
+This project serves as a journal to document and chronical the development of a Web Application that allows the public to easily listen to my DJ Mixes over the Internet.  This project merges two of my passions: IT/Computing/Programming and Music (House Music DJ'ing). This Application is built "in the Cloud", using **Amazon Web Services (AWS)** - https://aws.amazon.com/. I've been educating myself on the AWS Cloud Platform, with the goal of earning multiple AWS Certifications in 2019 - https://aws.amazon.com/certification/ (*Cloud Practioner, Solutions Architect Associate, & Developer Associate*). This project is a practical application of what I've learned thus far (via online training) - https://acloud.guru/. This is in conjunction with the Web development skills I've acquired in recent years (through online trainig and experimentation).
 
 This Application is ***"serverless"*** in its design - https://aws.amazon.com/serverless/. Meaning no physical or virtual servers are provisioned.  Instead, the Application is comprised of a collection of AWS services that work together to execute code and deliver the user experience:
 
@@ -22,7 +22,7 @@ The dj-edb Application consists of 2 major sub-projects:
 
 * **Back-end:** A REST API and Database to manage and exchange data with Frontend Clients, along with an Authentication Mechanism to secure data access.
 
-* **Front-end:** Browser-based Clients that communicate with the Backend to access and manage Mixes. The Application has separate Clients for playing Mixes and administering the Mix Information stored in the Backend.
+* **Front-end:** Browser-based Clients that communicate with the Back-end to access and manage Mixes. The Application has separate Clients for playing Mixes and administering the Mix Information stored in the Back-end.
 
 The **Back-end** is built out and tested first. Next, the **Front-end** is designed and deployed (first, the private Admin site and finally, the public Mix Audio site).
 
@@ -30,6 +30,6 @@ The **Back-end** is built out and tested first. Next, the **Front-end** is desig
 
 The Mix audio is streamed via online/Cloud services from SoundCloud https://soundcloud.com and MixCloud https://mixcloud.com. Both services allow users to upload audio files and embed streaming audio players (via HTML iframe) into their own custom site/application (dj-edb.com).
 
-Below is a diagram that provides an architectural overview of the application:
+Below is a diagram that provides an architectural overview of the Application:
 
 ![Overview Diagram](dj-edb_WebApp_ArchitectureOverview.png)
