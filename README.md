@@ -6,15 +6,15 @@ This project serves as a journal to document and chronical the development of a 
 
 This Application is ***"serverless"*** in its design - https://aws.amazon.com/serverless/. Meaning no physical or virtual servers are provisioned.  Instead, the Application is comprised of a collection of AWS services that work together to execute code and deliver the user experience:
 
-* **S3:** The AWS File Object Storage service. It hosts the static Web Sites and cover art files
+* **S3:** The AWS File Object Storage service. It hosts the static Web Sites and cover art files. https://docs.aws.amazon.com/s3/index.html#lang/en_us
 
-* **Cognito:** The AWS Authentication service. It stores and authenticates users' credentials and provides access tokens for the Backend REST API (data access).
+* **Cognito:** The AWS Authentication service. It stores and authenticates users' credentials and provides access tokens for the Backend REST API (data access). https://docs.aws.amazon.com/cognito/index.html#lang/en_us
 
-* **API Gateway:** The AWS Web API Service. It provides a Client access interface to the Lambda Function that accesses the Database.
+* **API Gateway:** The AWS Web API Service. It provides a Client access interface (REST) to the Lambda Function that accesses the Database. https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
 
-* **Lambda:** The AWS scalable Runtime environment host for executing re-usable, functional, code. In this application, it is used to execute the Database access code. Lambda supports most popular Runtime Evironments (Java, .NET, etc...). This project uses the **NodeJS** Runtime - https://nodejs.org/ (***Javascript***).
+* **Lambda:** The AWS scalable Runtime environment host for executing re-usable, functional, code. In this application, it is used to execute the Database access code. Lambda supports most popular Runtime Evironments (Java, .NET, etc...). This project uses the **NodeJS** Runtime - https://nodejs.org/ (***Javascript***). https://docs.aws.amazon.com/lambda/index.html?id=docs_gateway#lang/en_us
 
-* **DynamoDB:** The AWS NoSQL database in the Cloud. It hosts the data table containing the Mix information displayed the Frontend Client.
+* **DynamoDB:** The AWS NoSQL database in the Cloud. It hosts the data table containing the Mix information displayed the Frontend Client. https://docs.aws.amazon.com/dynamodb/index.html?id=docs_gateway#lang/en_us
 
 **Serverless** architectures have emerged as a popular design pratice that allows applications to be developed, deployed, and scaled in a highly-effcient, and highly-available fashion. 
 
