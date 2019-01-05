@@ -72,7 +72,7 @@ The layout of the mix information data is outlined below:
 In AWS DynamoDB, **Items** (data records/documents) are stored in **Tables**. Tables contain **Attributes** (fields).  The DynamoDB console provides a GUI dialog for initializing a table:
 
 * The Table for this Application is named: **dj_edb_mixes**. A Primary Key is required. I named it **MixId**. A *Sort Key* has been added to group mixes in order by **Year** (*recording year*). Each item added to the Table must contain a unique MixId and a Year. This helps the Database Engine store and partation the data for efficient retrival:
-![Create Table - Part 1](/images/DynamoDB_CreateTable_1.png)
+![Create Table - Part 1](/images/DynamoDB_CreateTable_1.PNG)
 
 ```
 $ aws dynamodb describe-table --table-name dj_edb_mixes
