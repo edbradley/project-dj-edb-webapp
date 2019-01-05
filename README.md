@@ -32,4 +32,87 @@ The Mix audio is streamed via online/Cloud services from SoundCloud https://soun
 
 Below is a diagram that provides an architectural overview of the Application:
 
-![Overview Diagram](dj-edb_WebApp_ArchitectureOverview.png)
+![Overview Diagram](/images/dj-edb_WebApp_ArchitectureOverview.png)
+
+## Back-end:
+
+The **Back-end** tier of the Application is comprised of a Database and a RESTful API to facilatate the exchange of data with the **Front-end** Client Web Applicaions. An Authentication service (**Cognito**) secures access to the data.
+
+AWS **DynamoDB** is a cloud-based NoSQL Database service (*https://en.wikipedia.org/wiki/NoSQL*) that allows for the collection and management of data in a Document-based store (typically in a JSON-style key-value format).  In NoSQL Databases, unlike tradtional relational databases, Documents/Records can have varying combinations of fields and data types.  In other words, there is no specific "hard-wired" Schema that each Documen/Record is required to conform to. This has the advantage of providing data flexibility as an application's requirements evolve.
+
+The layout of the mix information data is outlined below:
+
+| *Field Name*    | *Data Type* | *Description*                  | *Note*      |
+|-----------------|-------------|--------------------------------|-------------|
+| MixId           | string      | Mix ID                         | Primary key |
+| Title           | string      | Mix Title                      |             |
+| About           | string      | About the Mix                  |             |
+| DJ              | string      | DJ Name                        |             |
+| Year            | string      | Year recorded                  |             |
+| Month           | string      | Month recorded                 |             |
+| Day             | string      | Day recorded                   |             |
+| CoverArtURL     | string      | Cover Art image file URL       |             |
+| SoundCloudURL   | string      | SoundCloud web site link URL   |             |
+| SoundCloudHTML  | string      | Embedded SoundCloud player URL |             |
+| MixCloudURL     | string      | MixCloud web site link URL     |             |
+| MixCloudHTML    | string      | Embedded MixCloud player URL   |             |
+| **Playlist**    | **list**    | **Track Play List**            |             |
+| *TrackNumber*   |      string |             Track Number/Order |             |
+| *TrackTitle*    |      string |                    Track Title |             |
+| *TrackArtitst*  |      string |                   Track Artist |             |
+| *TrackLabel*    |      string |               Track Label Name |             |
+| *TrackYear*     |      string |             Track Release Year |             |
+| **Comments**    | **list**    | **Member Comments**            |             |
+| *MemberId*      |      string |                      Member ID |             |
+| *Created*       |      string |        Comment Date/Time Stamp |             |
+| *Text*          |      string |                   Comment Text |             |
+| Created         | string      |  Item Creation Date/Time Stamp |             |
+| LastUpdated     | string      |    Item Update Date/Time Stamp |             |
+
+In AWS DynamoDB, **Items** (data records/documents) are stored in **Tables**. Tables contain **Attributes** (fields).  The DynamoDB console provides a GUI dialog for initializing a table:
+
+* The Table for this Application is named: **dj_edb_mixes**. A Primary Key is required. I named it **MixId**. A *Sort Key* has been added to group mixes in order by **Year** (*recording year*). Each item added to the Table must contain a unique MixId and a Year. This helps the Database Engine store and partation the data for efficient retrival:
+![Create Table - Part 1](/images/DynamoDB_CreateTable_1.png)
+
+```
+$ aws dynamodb describe-table --table-name dj_edb_mixes
+```
+
+```
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "MixId",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "Year",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "dj_edb_mixes",
+        "KeySchema": [
+            {
+                "AttributeName": "MixId",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "Year",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": 1546293438.881,
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 6416,
+        "ItemCount": 2,
+        "TableArn": "arn:aws:dynamodb:us-east-1:225952625414:table/dj_edb_mixes",
+        "TableId": "747ff781-223e-40f3-9c61-a5f258cdaaba"
+    }
+}
+```
